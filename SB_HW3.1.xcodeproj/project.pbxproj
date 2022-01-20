@@ -11,6 +11,7 @@
 		060690AB2799ADDF00EE2042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060690AA2799ADDF00EE2042 /* ContentView.swift */; };
 		060690AD2799ADE100EE2042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060690AC2799ADE100EE2042 /* Assets.xcassets */; };
 		060690B02799ADE100EE2042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060690AF2799ADE100EE2042 /* Preview Assets.xcassets */; };
+		060690B82799AE1200EE2042 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060690B72799AE1200EE2042 /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		060690AA2799ADDF00EE2042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		060690AC2799ADE100EE2042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		060690AF2799ADE100EE2042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		060690B72799AE1200EE2042 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		060690A72799ADDF00EE2042 /* SB_HW3.1 */ = {
 			isa = PBXGroup;
 			children = (
+				060690B62799ADFC00EE2042 /* Components */,
 				060690A82799ADDF00EE2042 /* SB_HW3_1App.swift */,
 				060690AA2799ADDF00EE2042 /* ContentView.swift */,
 				060690AC2799ADE100EE2042 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				060690AF2799ADE100EE2042 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		060690B62799ADFC00EE2042 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				060690B72799AE1200EE2042 /* ColorCircle.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				060690AB2799ADDF00EE2042 /* ContentView.swift in Sources */,
 				060690A92799ADDF00EE2042 /* SB_HW3_1App.swift in Sources */,
+				060690B82799AE1200EE2042 /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
